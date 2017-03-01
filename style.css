@@ -1,0 +1,52 @@
+
+.octodex {background: white;
+	display: flex;
+	flex-wrap: wrap;
+} 
+
+body {background: black;
+padding-top: 150px;}
+li {list-style: none;}
+.octocat{ background: white;
+	height: 350px;
+	width: 300px;
+	padding: 10px;
+	justify-content: flex-start;
+	flex-grow: 1;
+}
+.octocat a img{height: 300px;
+	width: 300px;
+	border: #eee;
+	border-style: solid;}
+
+.image-footer{ display: flex;
+	justify-content: space-around;
+	background: white;
+	height: 30px;
+	width: 300px;
+	border: #eee;
+	border-style: none none solid; 
+
+}
+.image-caption{ display: flex;
+ justify-content: flex-end;
+
+}
+
+.image-number{float: left;
+	color: #777;
+
+}
+.image-number:before {content: "#";}
+
+
+.authors a img{height: 20px;
+	width: 20px;}
+
+a {text-decoration: none;
+color: black;}
+
+div span{font-family: sans;
+font-size: 10px;
+color: #777;}
+
